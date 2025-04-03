@@ -1,0 +1,1 @@
+{"current_room": "hallway", "inventory": [{"name": "knife", "x": 10, "y": 10}, {"name": "key", "x": 10, "y": 50}], "rooms": {"kitchen": {"objects": [{"name": "door", "x": 500, "y": 150, "state": null}], "exits": {"door": "hallway"}}, "hallway": {"objects": [{"name": "door", "x": 500, "y": 150, "state": null}], "exits": {"door": "kitchen"}}}}

@@ -1,0 +1,21 @@
+{
+    "start_room": "kitchen",
+    "rooms": {
+        "kitchen": {
+            "bg": "kitchen_bg",
+            "items": [
+                {"name": "knife", "x": 200, "y": 300, "image": "knife", "description": "A sharp blade."},
+                {"name": "rope", "x": 400, "y": 200, "image": "rope", "description": "A sturdy rope tied to something.", "interactions": {"knife": "cut"}},
+                {"name": "door", "x": 500, "y": 150, "image": "door", "description": "A locked door to the hallway.", "interactions": {"key": "unlock"}}
+            ],
+            "exits": {"door": "hallway"}
+        },
+        "hallway": {
+            "bg": "hallway_bg",
+            "items": [
+                {"name": "door", "x": 500, "y": 150, "image": "door", "description": "A door back to the kitchen.", "interactions": {"key": "unlock"}}
+            ],
+            "exits": {"door": "kitchen"}
+        }
+    }
+}
